@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js" defer> </script>
+</head>
+<body>
+    
+    <div class="container" >
+        <div class="div1" id="img">
+            
+            <img src="mel.jpeg"   alt="">
+            <img src="mel2.jpeg"  alt="">
+            <img src="mel3.jpeg"  alt="">
+            <img src="mel4.jpeg"  alt="">
+            <img src="mel5.jpeg"  alt="">
+            <img src="mel6.jpeg"  alt="">
+        
+        </div>
+        <div class="div2">
+            Conteúdo da div 2
+        
+        </div>
+     </div>
+      
+      <style>
+        .div1, .div2 {
+          float: left;
+          width: 50%; /* ajuste a largura conforme necessário */
+
+          display: flex;
+          margin-left: 10%;
+          box-shadow: 2px 2px 4px black;
+          overflow: hidden;
+          height: 500px;
+          width: 500px;
+
+          transition: transform 0.5s ease-in-out;
+          transform: translateX(-500);
+        }
+
+        img {
+            height: 500px;
+            width: 500px;
+        }
+      </style>
+      
+      <script>
+
+      </script>
+
+</body>
+</html>
