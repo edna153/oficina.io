@@ -1,24 +1,66 @@
-<HTML>
-<HTML LANG="pt-br"
- <HEAD>
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <title>Minha primeira página</title>	
-</HEAD>
-<BODY>
-	<H1> Esta é a minha primeira página<H1>
-     <IMG SRC="mel.jpeg" height="400" align="left" hspace="20">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Escopo</title>
+    <link rel="stylesheet" href="style-nav.css"> 
+</head>
 
-	<p><font size="4"> Esta é MEL. Uma pinscher que foi muito amada.Quando Mel foi morar conosco tinha apenas dois 
-meses de nascida, e era menor que a palma de minha mão. Um bebê cachorro muito bagunceira, elas simplesmente destruiu 
-3 chinelos enquando seus dentinhos cresciam e se fortaleciam. Ele me escolheu como dona, apesar de pertencer a minha filha. E
-era uma cachorrinha muito ciumenta, mas também muito carinhosa. O brinquedo preferido da Mel era a cocó, uma galinha de plástico 
-amarela. E gostava muito de buscar a bolinha também. A forma de Mel fazer xixi era muito engraçada, ela levantava as pernas 
-de trás e ficava de cabeça para baixo, e aí soltava o xixi. Outra coisa interessante de Mel, é que ela não gostava do cachorro 
-da raça chow chow, evitava passar perto deles. Eu acho que Mel não reconhecia essa raça como uma cachorro.
-Mel morreu com 11 anos de idade, por causa de uma doença no útero. 
-Deixou um vazio muito grande em nossa casa.
-<p>Toda vez que eu cozinho batata-frita ou como maça, me emociono de saudade da Mel</p></font></p>
-<p>Nunca haverá outra cachorrinho como MEL em minha vida!</p></font></p>
-</BODY>
+<body>
 
-</HTML>
+    <div class="navbar" height="200"  >
+        <nav id="menu" >
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="pagina1.html">Pauta</a></li>
+                <li><a href="pagina2.html">Como a internet funciona</a></li>
+                <li><a href="pagina.html">Minha Primeira página</a></li>
+            </ul>
+    </div>
+    <div class="div2">
+       
+        <img src="duvida.png">
+
+   </div>
+    <div class="div1">
+        <h1>Sobre o que vamos conversar</h1>
+        <ol>
+            <li>O que é informática</li>
+            <li>Profissões ligadas ao desenvolvimento de sofwares</li>
+            <li>O que precisa aprender para criar um site</li>
+            <li>Criando uma página estática</li>
+            <li>CSS para Layout da página</li>
+            <li>Uso do Javascript para torna sua página dinâmica</li>
+           </ol>
+    </div>
+   
+
+    <style>
+        h1 {
+            font-style: normal;
+            color: hsl(160, 84%, 31%);
+        }
+       ol  {
+            font-size: 150%;
+        }
+
+        .div2 {
+          float: left;
+          width: 40%; /* ajuste a largura conforme necessário */
+          margin-top: 30px;
+        }
+         
+        .div1 {
+            background-color: #ededed;
+            min-height: 500px;
+          
+
+        }
+    </style>
+
+    
+
+</body>
+</html>

@@ -1,95 +1,31 @@
-<HTML>
-    <HTML LANG="pt-br">
-     <HEAD>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Carrosel da Mel</title>
-        <script src="script.js" defer> </script>
-       
-       
+<!DOCTYPE html>
+<html lang="en">
 
-    </HEAD>
-    <BODY>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de exemplo</title>
+    <link rel="stylesheet" href="style-nav.css"> 
+</head>
 
-        <div class="geral">
-          
-            <div class="carrosel">
-                <div class="container" id="img">
-                    <img src="mel.jpeg"   alt="">
-                    <img src="mel2.jpeg"  alt="">
-                    <img src="mel3.jpeg"  alt="">
-                    <img src="mel4.jpeg"  alt="">
-                    <img src="mel5.jpeg"  alt="">
-                    <img src="mel6.jpeg"  alt="">
-                    
-                 </div>
-            </div>
-            <div class="text"><p> Esta é <span>Mel</span>. Uma pinscher muito especial. Quando Mel foi morar conosco tinha apenas dois 
-                meses de nascida, e era menor que a palma de minha mão. Um bebê cachorro muito bagunceira, ela simplesmente destruiu 
-                3 chinelos enquanto seus dentinhos cresciam e se fortaleciam. Ele me escolheu como dona, apesar de pertencer a minha filha. E
-                era uma cachorrinha muito ciumenta, mas também muito carinhosa. O brinquedo preferido da Mel era a cocó, uma galinha de plástico amarela. 
-                E gostava muito de buscar a bolinha também. A forma de Mel fazer xixi era muito engraçada, ela levantava as pernas 
-                de trás e ficava de cabeça para baixo, e aí soltava o xixi. Outra coisa interessante de Mel, é que ela não gostava do cachorro 
-                da raça chow chow, evitava passar perto deles. Eu acho que Mel não reconhecia essa raça como  cachorro.
-                Mel morreu com 11 anos de idade, por causa de uma doença no útero. 
-                 Deixou um vazio muito grande em nossa casa.
-                 Toda vez que eu como batata-doce ou  maça, me emociono de saudade da Mel
-                 Sou muito feliz pelo tempo que passei com Mel, ela estará para sempre em meu coração</p> </div>
-        </div>
-
-
-        <style>
-        
-        .carrosel, .text {
-           float: left;
-           width: 45%; /* ajuste a largura conforme necessário */
-
-           
-    
-        }
-        .text {
-            display:flex;
-            margin-left: 10px;
-            width: 65%; 
-            min-width: 400px;
-        }
-        .carrosel {
-            display: flex;
-            margin-left: 5px;
-            box-shadow: 2px 2px 4px black;
-            overflow: hidden;
-            height: 500px;
-            width: 400px;
-            
-        }
-        .container {
-          display: flex;
-          transition: transform 0.5s ease-in-out;
-          transform: translateX(-500);
-        }
-        .geral {
-             align-items: center;
-             justify-content: center;
-             margin: 15px;
-             min-height: 100vh;
-        }
-        img {
-    object-fit: cover;
-    height: 500px;
-    width: 500;
+<body>
    
- }
-
-    p { 
-    color:blue; 
-	font-size: 14pt; 
-    font-family: cursive;
-	font-style: normal;
-    text-align: justify;
   
-}
+<div class="navbar" height="200"  >
+    <nav id="menu" >
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="pagina1.html">Pauta</a></li>
+            <li><a href="pagina2.html">Como a internet funciona</a></li>
+            <li><a href="pagina.html">Minha primeira página</a></li>
+        </ul>
+    </nav>
+</div>
 
-        </style>
-     </BODY>
-    </HTML>
+<div class="corpo">
+    <img src="inicio.png" width="85%" >
+</div>
+</body>
+
+</html>
